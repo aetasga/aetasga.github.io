@@ -1,0 +1,36 @@
+* {
+    /*
+        box-sizing 스타일은 요소의 전체 크기 결정 방법을 정하는 것으로
+        border-box 라면 전체 크기 결정시 테두리 크기 까지 포함하여 진행하겠다는 의미
+        즉 padding과 border의 크기 까지 합친 것이 전체 width, height 값이 된다.
+    */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin:0;
+}
+
+li{
+    list-style:none;
+}
+
+.logo{
+    float:left;
+    line-height:3.1rem;
+}
+
+.clearfix:after{
+    content:"";
+    clear:both;
+}
+#top-nav{
+    margin: 0 1rem 0 1rem;
+}
+.nav-list{
+    float:right;
+}
+
+.nav-list li{
+    float:left;
+    padding: 1rem;
+}
